@@ -71,9 +71,39 @@ Manually examined the `Received` headers in Vim to identify the sending IP addre
 The email headers indicate that the message was processed through Microsoft email infrastructure. The sending IP address was identified for further reputation analysis.
 
 
-## 5. Email Authentication Analysis
-   - Screenshot 3
-   - Findings
+## 5. ## 5. Email Authentication Analysis
+
+### Methodology
+
+Manually examined the email authentication headers in Vim to assess SPF, DKIM, and DMARC results and identify potential sender authentication inconsistencies.
+
+### Evidence
+
+**Screenshot 3 — Email Authentication Analysis**
+
+<img width="2558" height="1431" alt="01-email-overview png" src="https://github.com/user-attachments/assets/97d30f84-d41b-4bc8-8109-4f0839d5cecf" />
+
+
+### Findings
+
+**Authentication-Results:**
+
+* SPF: `none`
+* DKIM: `none`
+* DMARC: `none`
+* Composite Authentication: `pass`
+
+**ARC-Authentication-Results:**
+
+* SPF: `pass`
+* DKIM: `pass`
+* DMARC: `pass`
+
+### Assessment
+
+The email contains differing authentication results. The Authentication-Results header reports SPF, DKIM, and DMARC as `none`, while an ARC-Authentication-Results header records successful authentication checks.
+
+
 
 ## 6. Email Body Analysis
    - Screenshot 4
