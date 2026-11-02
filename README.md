@@ -40,7 +40,8 @@ Opened the raw `.eml` file using Vim in Kali Linux to manually inspect the email
 * The Reply-To domain (`2ndal7.com`) differed from the sender's domain, indicating that responses would be directed to a separate domain.
 * The subject line used curiosity-driven health messaging to encourage engagement.
 
-**Assessment:** The sender-domain inconsistency and Reply-To mismatch warrant further investigation.
+**Assessment:** The sender-domain inconsistency and Reply-To mismatch warrant further investigation. The display name, "Your Respiratory Health Guide," presents the email as a health-related service, while the sender's address belongs to an academic student domain.
+
 
 ## 4. Email Header Analysis
 
