@@ -1,15 +1,15 @@
-# phishing-email-investigation
-SOC investigation of a suspicious email using header analysis, CyberChef, and VirusTotal to identify phishing indicators.
+## 1. Project Overview 
 
+Conducted phishing email analysis using Vim (a text editor) in Kali Linux to inspect a raw .eml file, manually extract IOCs, and analyze suspicious indicators with CyberChef and VirusTotal, identifying a likely phishing URL. 
 
+## 2.Tools used 
 
-# Phishing Email Investigation
+Kali linux
+Vim ( Text Editor) 
+VirusTotal
+Cyberchef
 
-## 1. Project Overview
-
-## 2. Tools Used
-
-## 3. Email Overview
+## 3. Email Overview - 
    - Screenshot 1
    - Findings
 
