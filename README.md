@@ -4,10 +4,7 @@ Conducted phishing email analysis using Vim (a text editor) in Kali Linux to ins
 
 ## 2.Tools used
 
-   *Kali linux
-   *Vim ( Text Editor) 
-   *VirusTotal
-   *Cyberchef
+   Kali linux, Vim ( Text Editor), VirusTotal, Cyberchef
 
 ## 3. Email Overview - 
 
