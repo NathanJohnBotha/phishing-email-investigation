@@ -40,8 +40,7 @@ Opened the raw `.eml` file using Vim in Kali Linux to manually inspect the email
 * The Reply-To domain (`2ndal7.com`) differed from the sender's domain, indicating that responses would be directed to a separate domain.
 * The subject line used curiosity-driven health messaging to encourage engagement.
 
-**Assessment:** The sender-domain inconsistency and Reply-To mismatch warrant further investigation. These observations alone are insufficient to confirm phishing.
-
+**Assessment:** The sender-domain inconsistency and Reply-To mismatch warrant further investigation.
 
 ## 4. Email Header Analysis
 
