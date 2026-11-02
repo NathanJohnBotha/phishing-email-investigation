@@ -62,16 +62,15 @@ Manually examined the `Received` headers in Vim to identify the sending IP addre
 * **Sending Server:** `OS8PR02CU002.outbound.protection.outlook.com`
 * **Receiving Server:** `BL6PEPF0001AB4F.mail.protection.outlook.com`
 * **Receiving Server IP:** `10.167.242.73`
-* **Infrastructure:** Microsoft Exchange Online Protection
 * **Timestamp:** 27 April 2026, 14:04:52 UTC
-* **Transport Security:** TLS 1.3
+
 
 ### Assessment
 
 The email headers indicate that the message was processed through Microsoft email infrastructure. The sending IP address was identified for further reputation analysis.
 
 
-## 5. ## 5. Email Authentication Analysis
+## 5. Email Authentication Analysis
 
 ### Methodology
 
