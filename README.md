@@ -2,7 +2,7 @@
 
 Conducted phishing email analysis using Vim (a text editor) in Kali Linux to inspect a raw .eml file, manually extract IOCs, and analyze suspicious indicators with CyberChef and VirusTotal, identifying a likely phishing URL. 
 
-## 2.Tools used 
+## 2.Tools used
 
 Kali linux
 Vim ( Text Editor) 
