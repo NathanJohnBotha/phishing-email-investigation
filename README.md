@@ -153,13 +153,13 @@ Extracted the sending IP address (`40.107.75.99`) from the email headers and inv
 * **Organization:** Microsoft Corporation
 * **Country:** Japan (JP)
 
-VirusTotal reported no malicious detections from the 92 security vendors.
+VirusTotal reported nothing malicious. 
 
-The IP address is associated with Microsoft Corporation, consistent with the Microsoft email  identified during the header analysis.
+The IP address is associated with Microsoft Corporation, consistent with the Microsoft email identified during the header analysis.
 
 ### Assessment
 
-The sending IP address was not flagged as malicious by VirusTotal's security vendors.
+The sending IP address was not flagged as malicious by VirusTotal.
 
 Although the IP address belongs to legitimate Microsoft infrastructure, this does not establish that the email itself is legitimate.
 
