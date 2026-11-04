@@ -187,9 +187,7 @@ Extracted the domain `track.kolabokoliya.vip` from the decoded HTML email body a
 * **Gridinsoft:** Suspicious
 * **LevelBlue:** Suspicious
 
-VirusTotal reported no malicious detections from the 92 security vendors. However, Gridinsoft and LevelBlue classified the domain as suspicious.
-
-The domain was identified within the decoded email body and appeared in hyperlinks using the `/track_click.php` endpoint.
+VirusTotal reported no malicious detections with 0/92 score. However, Gridinsoft and LevelBlue classified the domain as suspicious.
 
 ### Assessment
 
@@ -212,19 +210,16 @@ Extracted the destination URL from the decoded HTML email body and investigated 
 
 * **Destination URL:** `hxxps://storage[.]googleapis[.]com/seawcdef/pulmo-Balance.htm`
 * **Detection Ratio:** 2/93
-* **Phishing Database:** Phishing
-* **SafeToOpen:** Phishing
-* **HTTP Response:** 403
 
 
 VirusTotal reported that two security vendors classified the destination URL as phishing.
 
-The URL was identified within the decoded HTML email body and referenced through hyperlinks using the `track.kolabokoliya.vip` tracking domain.
+The URL was identified within the decoded HTML email body and referenced through hyperlinks using the `track.kolabokoliya.vip` domain.
 
 ### Assessment
 
 The destination URL's phishing classifications provide evidence supporting the possibility of a phishing attempt.
 
 
-Although only two security vendors classified the URL as phishing, the combined findings increase confidence that the email is likely
+Although only two security vendors classified the URL as phishing, the combined findings increase confidence that the email is likely.
 
